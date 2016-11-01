@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { Component} from 'react'
 import Title from './components/Title'
+import './App.sass'
 
-class App extends React.Component {
+class App extends Component {
   render() {
     return (
-      <Title />
+        <div className="app">
+          <Title label='Scoreboard' />
+        </div>
     )
   }
 }
