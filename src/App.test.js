@@ -10,12 +10,7 @@ chai.use(chaiEnzyme())
 const app = shallow(<App />)
 
 describe('<App />', () => {
-  it('contains a div tag', () => {
-    expect(app).to.have.tagName('div')
-  })
-
   it('renders the Title', () => {
     expect(app).to.have.descendants(Title)
-    // to test descendants, you need to import the descendant as well
   })
 })

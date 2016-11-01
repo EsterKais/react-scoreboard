@@ -1,11 +1,11 @@
-import React from 'react'
+import React, { Component } from 'react'
 import './Title.sass'
 
-class Title extends React.Component {
+class Title extends Component {
   render() {
     const { label } = this.props
-    // const label = this.props.label - object destructuring
-    return(
+
+    return (
       <h1>{ label }</h1>
     )
   }
