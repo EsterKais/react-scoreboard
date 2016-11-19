@@ -1,3 +1,7 @@
+# Introduction
+
+This was an example project used in class to illustrate React.js.
+
 # React Starter
 
 ## Installation
